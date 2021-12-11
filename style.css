@@ -1,0 +1,298 @@
+@font-face {
+  font-family: GothamBook;
+  src: url("../fonts/gotham-book.otf");
+}
+
+body {
+  margin: 0;
+}
+
+#topo {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: #000000;
+  z-index: 10000;
+}
+
+#menu {
+  margin: 0 auto;
+  width: 1280px;
+  height: 120px;
+}
+
+#menu #logo {
+  float: left;
+  margin-top: 35px;
+}
+
+#menu #botoes {
+  float: right;
+}
+
+#menu #botoes a {
+  margin-left: 68px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 22px;
+  letter-spacing: 0.44px;
+  line-height: 120px;
+  text-decoration: none;
+  color: #EAEAEA;
+}
+
+#menu #botoes a:hover {
+  color: #ee1c25;
+}
+
+#home {
+  margin-top: 120px;
+  width: 100%;
+  height: calc(100vh - 120px);
+  background: url(imagens/home.png) center center no-repeat;
+  background-size: cover;
+}
+
+.faixa {
+  clear: both;
+  width: 100%;
+  height: 45px;
+  background: url(imagens/faixa.png) center center no-repeat;
+  background-size: cover;
+}
+
+#anime {
+  width: 100%;
+  min-height: 100vh;
+  background: url(imagens/anime.png) right center no-repeat;
+  background-size: cover;
+}
+
+#sobre {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#titulo-logo {
+  float: right;
+  margin: 110px 0 56px 0;
+  width: 768px;
+  text-align: center;
+}
+
+p {
+  font-family: 'GothamBook', sans-serif;
+  font-size: 17px;
+  letter-spacing: -0.17px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+#sobre p {
+  float: right;
+  width: 768px;
+}
+
+.conteudo {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+#personagens {
+  padding-top: 78px;
+  width: 100%;
+  min-height: 100vh;
+  background: #000000;
+}
+
+#personagens h1 {
+  margin-bottom: 70px;
+  color: #00774D;
+}
+
+#personagens .conteudo {
+  width: 1332px;
+}
+
+.personagem {
+  position: relative;
+  float: left;
+  padding: 20px 44px 20px 90px;
+  margin-bottom: 70px;
+  width: 488px;
+  height: 226px;
+  background: #ffffff;
+  border: 1px solid #707070;
+  border-radius: 10px;
+}
+
+.personagem:nth-child(odd) {
+  margin-left: 84px;
+}
+
+.personagem h2 {
+  margin: 0px 0 6px 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.personagem p {
+  font-size: 13px;
+  letter-spacing: -0.13px;
+  line-height: 19px;
+}
+
+.personagem img {
+  position: absolute;
+}
+
+#tanjiro h2 {
+  color: #00774D;
+}
+
+#tanjiro img {
+  bottom: -1px;
+  left: -134px;
+}
+
+#nezuko h2 {
+  color: #ECA3A9;
+}
+
+#nezuko img {
+  bottom: -1px;
+  left: -80px;
+}
+
+#zenitsu h2 {
+  color: #F38F29;
+}
+
+#zenitsu img {
+  bottom: -1px;
+  left: -124px;
+}
+
+#inosuke h2 {
+  color: #8C5D49;
+}
+
+#inosuke img {
+  bottom: -1px;
+  left: -114px;
+}
+
+#manga {
+  padding: 110px 0;
+  background: url(imagens/back.png) center top no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#manga h1 {
+  margin-bottom: 90px;
+  color: #00774D;
+}
+
+#manga img {
+  float: right;
+  width: 600px;
+}
+
+#manga .conteudo {
+  width: 1470px;
+}
+
+#manga p {
+  width: 870px;
+}
+
+#filme {
+  padding: 110px 0 82px 0;
+  width: 100%;
+  background: url(imagens/filme.png) center top no-repeat;
+  background-size: cover;
+}
+
+#filme .conteudo {
+  width: 512px;
+}
+
+#filme h1 {
+  color: #F9F9F9;
+}
+
+#filme p {
+  color: #ffffff;
+}
+
+#contato {
+  padding: 96px 0 180px 0;
+  background: url(imagens/back-contato.png) center top no-repeat;
+  background-size: cover;
+}
+
+#contato h1 {
+  margin-bottom: 60px;
+  color: #00774D;
+}
+
+#contato .conteudo {
+  width: 1086px;
+}
+
+form {
+  float: right;
+  width: 588px;
+  text-align: center;
+}
+
+input, textarea {
+  margin-bottom: 22px;
+  width: 100%;
+  height: 44px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  color: #606060;
+  padding: 0 24px;
+  border: 1px solid #DBDBDB;
+  border-radius: 6px;
+}
+
+textarea {
+  padding-top: 8px;
+  height: 132px;
+  resize: none;
+}
+
+button {
+  margin-top: 20px;
+  width: 150px;
+  height: 32px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  background: #00774D;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000;
+}
+
+#rodape {
+  padding: 54px 0;
+  background: #000000;
+  text-align: center;
+}
