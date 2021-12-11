@@ -1,4 +1,4 @@
-# site-m2-di
-Site M2 - Design de Interface
+# site-m3-di
+Site M3 - Design de Interface
 
-https://marina-mrd.github.io/site-m2-di/
+https://marina-mrd.github.io/site-m3-di/
